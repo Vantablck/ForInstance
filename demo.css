@@ -1,0 +1,59 @@
+h1{
+	text-align: center;
+	font-size: 50px;
+}
+
+
+th{
+	background-color: gray;
+}
+
+th, td {
+	border: 3px dotted black;
+	padding: 10px;
+}
+
+footer {
+	position: bottom;
+}
+
+#pageContainer{
+	position: relative; /* Will change according to the page size */
+	min-height: 100vh; /* According to the viewport height therefore it can always fill it for responsiveness*/
+}
+
+#contentWrap{
+	padding-bottom: 2.5em; /* According to Footer's height */
+	text-align: center;
+}
+
+#footer{
+	font-family: 'Big Shoulders Text', cursive, sans-serif;
+	position: absolute; /*Will always remain at the bottom no matter what */
+	height: 2.5em; /*Footer's height */
+	width: 100%; 
+	bottom: 0;
+	text-align: center;
+}
+
+.resize {
+	height: 200px; /* Resizes all 3 images */
+	width: 200px;
+}
+
+#imgDiv{
+	text-align: center; /* To center the images */
+	margin: 30px auto 30px auto;
+}
+
+table {
+	margin-left: auto; /* To center the table */
+	margin-right: auto;
+}
+
+.ash {
+	border-radius: 10px;
+	height: 300px;
+	width: 300px;
+
+}
